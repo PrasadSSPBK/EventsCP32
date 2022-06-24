@@ -1,0 +1,34 @@
+.EventItemContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.eventImg {
+  height: 150px;
+  width: auto;
+}
+.eventHeading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.eventPara {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+}
